@@ -1,0 +1,12 @@
+[package]
+name = "rubymine-configurator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-xml = "0.37"
+clap = { version = "4.5", features = ["derive"] }
+dirs = "5.0"
+chrono = "0.4"
+regex = "1.0"
+anyhow = "1.0"
